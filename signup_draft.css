@@ -1,0 +1,80 @@
+body {
+    width: 500px;
+    background-color: aquamarine;
+    align-items:center;
+    height: 700px;
+    margin: 400px;
+    padding: 0;
+  }
+  #space > div {
+    width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #signup,
+  #login {
+    width: 500px;
+    background: #1723ca;
+  }
+  #signup {
+    height: 300px;
+  }
+  #login {
+    height: 200px;
+  }
+  .yellow {
+    background-color: rgb(156, 18, 18);
+  }
+  
+  #buttons {
+    height: 100px;
+    background: #502c2e;
+  }
+  #buttons > p {
+    width: 49.95%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    height: 75%;
+    margin: 0;
+  }
+  #buttons > p:hover {
+    background: #f1c40f;
+    color: #2c3e50;
+    cursor: pointer;
+  }
+  #signup > input,
+  #signup > button {
+    margin-top: 20px;
+    margin-left: 105px;
+    height: 25px;
+    border: 2px;
+    border-radius: 2px;
+  }
+  #first,
+  #last,
+  #confirm {
+    width: 250px;
+  }
+  #email {
+    width: 175px;
+  }
+  #password {
+    width: 125px;
+    margin-left: 6px !important;
+  }
+  
+  #login > #email,
+  #login > #password,
+  #login > button {
+    width: 250px;
+    margin-left: 125px !important;
+    margin-top: 20px;
+     border: 2px;
+    border-radius: 2px;
+    height: 25px;
+  }
+  

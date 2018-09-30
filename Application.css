@@ -1,0 +1,68 @@
+.Application {
+  text-align: center;
+}
+
+.Application-logo {
+  
+  height: 50px;
+}
+.Application-user
+{
+  height: 50px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+.Application-greet
+{
+  font-size: 1.5 em;
+  float:right;
+  margin-right: 30px;
+  margin-top: 39px;
+
+}
+.Application-header {
+
+  height: 85px;
+  padding: 20px;
+  color: white;
+}
+
+.Application-title {
+  font-size: 1.5 em;
+}
+.dropdown {
+     position: relative;
+     display: inline-block;
+     float: right;
+     margin-right: 30px;
+
+}
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+    float: right;
+     margin-right:30px;
+     width: 200px;
+     background-color: white;
+     font-weight:bold;
+     position: relative;
+
+ }
+ li a {
+     color:black;
+     text-decoration: none;
+}
+ li {
+     padding: 8px 16px;
+     color:black;
+     border-bottom: 1px solid #e5e5e5;
+}
+ li:last-child {
+     border-bottom: none;
+}
+ li:hover {
+     background-color: #e5e5e5;
+     color:blueviolet;
+} 

@@ -1,0 +1,113 @@
+body{
+  background-image:url("back.jpeg");
+    background-repeat: no-repeat;
+    
+   
+    height: 100%; 
+ /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+#box {
+    width: 500px;
+    
+    align-items:center;
+    height: 100%;
+    margin: 400px;
+    margin-top: 200px;
+    padding: 0;
+  }
+ 
+ 
+  
+  #space > div {
+    width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup,
+  .login {
+    width: 500px;
+    background: black;
+  }
+  .signup {
+    height: 320px;
+  }
+  .login {
+    height: 220px;
+  }
+  .yellow {
+    background-color: rgb(156, 18, 18);
+  }
+  
+  #buttons {
+    height: 100px;
+    background: #502c2e;
+  }
+  #buttons > p {
+    width: 49.95%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    height: 75%;
+    margin: 0;
+  }
+  #buttons > p:hover {
+    background: #f1c40f;
+    color: #2c3e50;
+    cursor: pointer;
+  }
+  .signup > input,
+  .signup > button {
+    margin-top: 20px;
+    margin-left: 105px;
+    height: 25px;
+    border: 2px;
+    border-radius: 2px;
+  }
+  .first,
+  .last{
+    
+    width: 258px;
+  }
+  .confirm {
+    width: 250px;
+  }
+  .email {
+    width: 250px;
+  }
+  .password {
+    width: 250px;
+   
+  }
+  .myStyle2  {
+    font-Size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-Right:30px;
+    margin-Top: 25px;
+    color: #fff;
+    
+  }
+  .myStyle2:hover{
+    color: darkred;
+    font-style: underline;
+  }
+
+  .login > .email,
+  .login > .password,
+  .login > button {
+    width: 250px;
+    margin-left: 125px !important;
+    margin-top: 20px;
+     border: 2px;
+    border-radius: 2px;
+    height: 25px;
+  }
+  

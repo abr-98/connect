@@ -1,0 +1,91 @@
+body{
+  background-image:url("back.jpeg");
+    background-repeat: no-repeat;
+    
+   
+    height: 100%; 
+ /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.slideshow {
+  width: 900px;
+  margin-left: 220px;
+  margin-right: 50px;
+  margin-top: 50px;
+  height: 500px;
+  background: #000;
+  position: relative;
+  transition: .3s;
+}
+.slideshow-slides {
+  list-style: none;
+  transition: .3s;
+  margin: 60px;
+  padding: 60px;
+}
+.slideshow-slides li {
+  position: absolute;
+  top: 5; right: 5; bottom: 5; left: 7;
+  margin: 0;
+
+  padding: 20px;
+  transition: .3s;
+  opacity: 0;
+}
+.slideshow-slides li.active {
+  opacity: 1;
+  width:650px;
+  transition: .3s;
+}
+figure {
+  
+  
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  position: relative;
+  bottom: 5px;
+  left: 200px;
+  font-size: 18px;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+}
+
+.slideshow-dots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top:0;
+  text-align: center;
+  list-style: none;
+  transition: .3s;
+}
+.slideshow-dots li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  transition: .3s;
+}
+.slideshow-dots a {
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 10px;
+  text-indent: -9990px;
+  opacity: .5;
+  transition: .3s;
+}
+.slideshow-dots li.active a {
+  opacity: 1;
+  transition: .3s;
+}
